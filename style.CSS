@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+body{
+    background-color: #24252A;e;
+    background-image:url(img1.jpg); 
+    
+    height: 100%;
+    /*background-position: center;*/
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+.box{
+    
+    width:600px;
+    height:400px;
+    padding:20px;
+    margin:100px auto;
+    background-color:red ;
+    
+}
+.logo{
+
+    widows:100px;
+    height:100px;
+    cursor: pointer;
+    justify-content: left;
+}
+
+heading{
+    font-family:'Aldrich';
+    font-size:40px;
+    color:whitesmoke;
+}
+text{
+    font-family:'Times New Roman", Times, serif';
+    color:white;
+    font-size: 400%;
+    text-align: center;
+    
+
+}
+/*
+.bcimage{
+    widows:300px;
+    height:500px;
+    background-image:url(img.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    /*!background-repeat: no-repeat;
+}
+.bcimage{
+    background-image:url(img.jpg);                               
+    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.navbar{
+    background-color: #24252A;
+}
+li, a, button{
+    font-family:"Courgette",sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:white;
+    text-decoration:none;
+}
+header{
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition:all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: blue;
+}
+button{
+    padding 9px 25px;
+    background-color:lightblue;
+    color:black;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+}
+button:hover{
+    background-color:blue ;
+}
+        
+
+

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>REGISTRATION PAGE</title>
+        <link rel="stylesheet" href="stylereg.css">
+        <style type="text/CSS"></style>
+        
+    </head>
+    <script>
+        function reg()
+        {
+            var name=document.getElementById("1").value;
+            var prn=document.getElementById("2").value;
+            alert("THANK YOU"+" ,Your request will be processed shortly");
+            alert("Your request is processed");
+            document.getElementById("ii").innerHTML="thank you"
+        }
+    </script>
+    <body>
+        <logo>
+            <a href="Techno.html" ><img class="logo" src="logo.jpg" alt="logo"></a>
+        </logo>
+            
+        <heading> <center>REGISTRATION</center></heading>
+        <br>    
+        <br>
+        <delay>
+        <center>
+                
+        <form>
+                <txt><p id="ii" >Please enter your Name and SRN</p></txt>
+                <input type="text" name="number" id="1"/>
+                <input type="text" name="number" id="2"/>
+                <button onclick="reg()">REGISTER</button>
+         </form>
+        </center>
+    </delay>
+
+        
+       
+        
+       
+
+    </body>
+</html>
